@@ -1,0 +1,17 @@
+.meeting-main-container{
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+}
+
+.zoom-meeting-container{
+    width: 100%;
+    height: 100%;
+}
+
+.meetingIframe{
+    width: 60%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}

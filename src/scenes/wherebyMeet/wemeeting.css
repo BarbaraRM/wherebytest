@@ -1,0 +1,22 @@
+.we-meeting-main-container{
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+}
+
+.we-zoom-meeting-container{
+    width: 100%;
+    height: 100%;
+}
+
+.we-meetingIframe{
+    width: 60%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+whereby-embed {
+    height: 100%;
+}
+

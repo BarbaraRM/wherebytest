@@ -1,0 +1,14 @@
+.topbarContainer {
+    height: 40px;
+    background-color: black;
+    padding: 5px 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.topbar-title{
+    color: white;
+    font-size: 1.2rem;
+}
