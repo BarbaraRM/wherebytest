@@ -34,9 +34,7 @@ export default function Dashboard() {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
-          Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmFwcGVhci5pbiIsImF1ZCI6Imh0dHBzOi8vYXBpLmFwcGVhci5pbi92MSIsImV4cCI6OTAwNzE5OTI1NDc0MDk5MSwiaWF0IjoxNjk0OTY0NTk2LCJvcmdhbml6YXRpb25JZCI6MTkzNjU5LCJqdGkiOiJmMTQzMzdkNi0xMzk2LTQwZTEtOTUzNS04M2ZhZDZjZTc3ZWUifQ.qn_0QEjQTX0I2-S_6-Z9HUwdGFKtWMbBnqA-hPeb9yo`,
-          Connection:"keep-alive",
-          Accept:"*/*",
+          Authorization: `Bearer ${process.env.REACT_APP_API_KEY}`,
         },
       };
     fetch(
